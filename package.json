@@ -4,6 +4,7 @@
   "description": "iCoded repository",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/michalchmura/iCoded/issues"
   },
-  "homepage": "https://github.com/michalchmura/iCoded#readme"
+  "homepage": "https://github.com/michalchmura/iCoded#readme",
+  "dependencies": {
+    "puppeteer": "^1.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
 }
